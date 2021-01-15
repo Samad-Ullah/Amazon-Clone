@@ -1,0 +1,38 @@
+.shoppingBasket{
+    display: flex;
+    flex-direction:column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 25vw;
+    height: 40vh;
+
+    
+    
+}
+.shopping_items{
+    display: flex;
+   
+    }
+
+.shoppingBasket__info{
+    padding-left: 10px;
+}
+.shoppingBasket__info > button {
+    background:  #cd9042;;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color:#a88738 #9c7e31 #846a29; ;
+    color: black;
+}
+.shoppingBasket__img {
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+}
+.shoppingBasket__rating{
+    display: flex;
+}
+.shoppingBasket__title{
+    font-size: 17px;
+    font-weight: 700;
+}
